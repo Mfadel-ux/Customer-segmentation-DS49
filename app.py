@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 # --- Bagian 1: Memuat Model ---
 try:
     with open('Logistic_Regression_Model.pkl', 'rb') as file:
-        model = pickle.load(file)
+        Logistic_Regression_Model.pkl = pickle.load(file)
 except FileNotFoundError:
     st.error("Error: Model file 'Logistic_Regression_Model.pkl' not found.")
     st.stop()
