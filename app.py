@@ -40,7 +40,7 @@ def run_ml_app():
     age = st.slider("Age", 18,100)
     graduated = st.selectbox("Graduate?" ["Yes", "No"])
     profession = st.selectbox("Profession?", ["Engineer", "Doctor", "Lawyer", "Artist"])
-    work_exp = st.slider("Work Experience" (Year)", 0, 30)
+    work_exp = st.slider("Work Experience (Year)", 0, 30)
     spending = st.selectbox("Spending Score", ["Low", "Average", "High"]
     family_size = st.slider("Family Size", 1, 10)
 
