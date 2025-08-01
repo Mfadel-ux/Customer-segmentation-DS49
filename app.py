@@ -46,7 +46,7 @@ def run_ml_app():
 
     input_data = pd.DataFrame({
         'Gender' : [gender]
-        'Ever_Married :[ever_married]
+        'Ever_Married' :[ever_married]
         'Age' : [age]
         'Graduated' : [graduated]
         'Profession' : [profession]
