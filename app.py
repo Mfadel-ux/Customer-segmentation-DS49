@@ -35,14 +35,14 @@ def run_ml_app():
                 </div
              """
     st.markdown(design, unsafe_allow_html=True)
-    Gender = st.selectbox("Gender", ["Male", "Female"]
+    Gender = st.selectbox("Gender" ["Male", "Female"]
     ever_married = st.selectbox( "Married?", ["Yes", "No"])
     age = st.slider("Age", 18,100)
     graduated = st.selectbox("Graduate?" ["Yes", "No"])
-    profession = st.selectbox("Profession?", ["Engineer", "Doctor", "Lawyer", "Artist"])
-    work_exp = st.slider("Work Experience (Year)", 0, 30)
-    spending = st.selectbox("Spending Score", ["Low", "Average", "High"]
-    family_size = st.slider("Family Size", 1, 10)
+    profession = st.selectbox("Profession?" ["Engineer", "Doctor", "Lawyer", "Artist"])
+    work_exp = st.slider("Work Experience (Year)" 0, 30)
+    spending = st.selectbox("Spending Score" ["Low", "Average", "High"]
+    family_size = st.slider("Family Size" 1, 10)
 
     input_data = pd.DataFrame({
         'Gender' : [gender]
