@@ -9,6 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 try:
     with open('Logistic_Regression_Model.pkl', 'rb') as file:
         Logistic_Regression_Model.pkl = pickle.load(file)
+        
 except FileNotFoundError:
     st.error("Error: Model file 'Logistic_Regression_Model.pkl' not found.")
     st.stop()
@@ -138,3 +139,4 @@ def run_ml_app():
 # --- Bagian 5: Menjalankan Aplikasi ---
 if __name__ == '__main__':
     main()
+
