@@ -77,5 +77,5 @@ def run_ml_app():
             st.error("Segmentasi D: Kurang Aktif ❌")
 
 # Run
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
