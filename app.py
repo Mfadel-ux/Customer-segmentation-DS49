@@ -68,13 +68,13 @@ def run_ml_app():
 
         # IF-ELSE untuk interpretasi hasil
         if segmen == 0:
-            st.success("Segmentasi A: Pelanggan Loyal 🔥")
+            st.success("Segmentasi A: Pelanggan Loyal ")
         elif segmen == 1:
-            st.info("Segmentasi B: Pelanggan Potensial 👍")
+            st.info("Segmentasi B: Pelanggan Potensial ")
         elif segmen == 2:
-            st.warning("Segmentasi C: Pelanggan Baru ⚠")
+            st.warning("Segmentasi C: Pelanggan Baru ")
         else:
-            st.error("Segmentasi D: Kurang Aktif ❌")
+            st.error("Segmentasi D: Kurang Aktif ")
 
 # Run
 if __name__ == '__main__':
